@@ -28,7 +28,7 @@ module.exports.run = async (bot, message, args) => {
 
     let startMessage = new Discord.RichEmbed()
         .setTitle("Fortnite Scrims")
-        .setDescription("Please write the last 3 codes from your server id found on the top left of your screen")
+        .setDescription("Please type the last 3 game codes @here in this channel.")
         .setColor("#8600b3")
         .setFooter("FortnitePH PRO Scrims");
 

@@ -73,7 +73,7 @@ module.exports.run = async (bot, message, args) => {
         editLast3 = await message.channel.send({embed: last3});
     }, 10);
 
-    const collector = snipeChannel.createMessageCollector(filter, {max: 200, maxMatches: 200, time: 180000});
+    const collector = snipeChannel.createMessageCollector(filter, {max: 200, maxMatches: 200, time: 300000});
 
     collector.on('collect', m => {
 
